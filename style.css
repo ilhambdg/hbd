@@ -1,0 +1,125 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(84, 84, 84);
+}
+
+#border-btn {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 200px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0 7px 12px rgba(21, 21, 21, 0.9);
+}
+
+#container {
+    text-align: center;
+    background: linear-gradient(135deg, rgb(255, 251, 252), rgb(213, 74, 118));
+    display: none;
+}
+
+.navbar {
+    background-color: rgb(213, 74, 118);
+    overflow: hidden;
+    box-shadow: 0 7px 9px rgba(20, 20, 20, 0.6);
+    position: fixed;
+    padding-right: 500px;
+}
+
+.logo {
+    float: left;
+    padding: 5px 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    line-height: 1.2;
+    font-size: 25px;
+    font-style:italic;
+}
+
+#love {
+    color: rgb(255, 255, 255);
+}
+
+.teks {
+    color: #780000cc;
+    background-color: rgba(254, 126, 167, 0.8);
+    font-size: 13px;
+    display: none;
+    position: fixed;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin: 200px 80px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 18px rgb(59, 12, 12, 0.9);
+}
+
+.teks span {
+    color: aliceblue;
+}
+
+.teks p {
+    font-weight: 550;
+    color: #5d0000cc;
+}
+
+/* Style untuk container gambar */
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+    grid-template-rows: repeat(8, 1fr);    /* 3 baris */
+    gap: 20px;  /* Jarak antara gambar */
+}
+
+/* Style untuk setiap gambar */
+.image img {
+    width: 100%;  /* Gambar mengisi seluruh ruang kotak */
+    height: 100%;
+    object-fit: cover; /* Menyesuaikan gambar ke dalam kotak tanpa mengubah aspek */
+    border-radius: 10px ;
+    box-shadow:  2px 2px 9px 2px rgba(240, 149, 185, 0.9)
+}
+
+/* Menetapkan gambar latar belakang pada setiap elemen gambar */
+.image img:nth-child(1) {
+    background-image: url('img/img1.jpeg');
+}
+
+.image img:nth-child(2) {
+    background-image: url('img/img2.jpeg');
+}
+
+.image img:nth-child(3) {
+    background-image: url('img/img3.jpeg');
+}
+
+.image img:nth-child(4) {
+    background-image: url('img/img4.jpeg');
+}
+
+.image img:nth-child(5) {
+    background-image: url('img/img5.jpeg');
+}
+
+.image img:nth-child(6) {
+    background-image: url('img/img6.jpeg');
+}
+
+.image img:nth-child(7) {
+    background-image: url('img/img7.jpeg');
+}
+
+.image img:nth-child(8) {
+    background-image: url('img/img8.jpeg');
+}
